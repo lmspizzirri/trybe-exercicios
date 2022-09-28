@@ -36,7 +36,7 @@
     </header>    
     <main class="main-content">
       <section class="center-content">
-        <p>Texto padrão do nosso site</p>
+        <p></p>
         <p id="2anos">-----</p>
         <p>Trybe</p>
       </section>
@@ -62,6 +62,11 @@
             document.querySelector("h1").innerText = text;
         }
         texth1("Exercício - JavaScript");
+
+        function subtitle(text){
+            document.querySelector("p").innerText = text;
+        }
+        subtitle("texto padrão do nosso site".toUpperCase());
         /*
       Aqui você vai modificar os elementos já existentes utilizando apenas as funções:
       - document.getElementById()
