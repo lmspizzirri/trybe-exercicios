@@ -67,6 +67,14 @@
             document.querySelector("p").innerText = text;
         }
         subtitle("texto padrão do nosso site".toUpperCase());
+
+        function showtag(){
+            let show = document.getElementsByTagName("p");
+            for (let i = 0; i < show.length; i += 1){
+                console.log(show[i]);
+            }
+        }
+        showtag(); Texto padrão do nosso site
         /*
       Aqui você vai modificar os elementos já existentes utilizando apenas as funções:
       - document.getElementById()
